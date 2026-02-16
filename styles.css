@@ -148,3 +148,26 @@ body {
 .fact-popup a:hover {
   color: #d0e8ff;
 }
+
+.credits {
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+  z-index: 4;
+  font-size: 11px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+
+.credits a {
+  pointer-events: auto;
+  color: rgba(153, 197, 255, 0.9);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.credits a:hover {
+  color: rgba(208, 232, 255, 0.95);
+}
